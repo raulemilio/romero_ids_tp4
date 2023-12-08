@@ -1,7 +1,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-/*! Estructura anónima del gpio */
+//! Estructura anónima del gpio
 typedef struct gpio_s * gpio_t;
 
 /**
