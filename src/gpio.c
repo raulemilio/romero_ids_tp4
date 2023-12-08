@@ -8,8 +8,8 @@
 /*! Definición de la struct anónima */
 struct gpio_s {
     uint8_t port; /*!< Puerto GPIO */
-    uint8_t bit;  /*!< Pin GPIO */ 
-    bool output;  /*!< Dirección GPIO */ 
+    uint8_t bit;  /*!< Pin GPIO */
+    bool output;  /*!< Dirección GPIO */
     bool used;    /*!< Estado de uso de la instancia (en uso o sin uso) */
 };
 

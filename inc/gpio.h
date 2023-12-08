@@ -13,7 +13,7 @@ typedef struct gpio_s * gpio_t;
  */
 gpio_t gpioCreate(uint8_t puerto, uint8_t bit);
 /**
- * @brief Función set dirección GPIO 
+ * @brief Función set dirección GPIO
  *
  * @param Objeto gpio
  * @param output
