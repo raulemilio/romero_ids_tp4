@@ -5,12 +5,12 @@
 #define GPIO_MAX_INSTANCES 10
 #endif
 
-//! Definición de la struct anónima 
+//! Definición de la struct anónima
 struct gpio_s {
-    uint8_t port; //!< Puerto GPIO 
-    uint8_t bit;  //!< Pin GPIO 
-    bool output;  //!< Dirección GPIO 
-    bool used;    //!< Estado de uso de la instancia (en uso o sin uso) 
+    uint8_t port; //!< Puerto GPIO
+    uint8_t bit;  //!< Pin state GPIO
+    bool output;  //!< Dirección GPIO
+    bool used;    //!< Estado de uso de la instancia (en uso o sin uso)
 };
 
 /**
